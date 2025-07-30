@@ -1,5 +1,4 @@
 # **LLM Notes Store**
-----
 
 A Python library to give an LLM the ability to store and retrieve notes via supported LLM tool calling or function calling to Large Language Models (LLMs) through Open WebUI's (or similar clients) tools feature.
 
