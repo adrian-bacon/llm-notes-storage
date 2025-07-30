@@ -19,6 +19,16 @@ BASE_PATH = "/app/backend/data/.llm_notes_storage"
 
 
 def sanitize_title(title: str) -> str:
+    """
+    Sanitizes a title by removing any markdown header files and leading and 
+    trailing white spaces.
+    
+    Args:
+        title (str): The title of the note.
+
+    Returns:
+        str: The sanitized title.
+    """
     return title.replace('#', ' ').strip()
 
 def get_note_path(title: str) -> str:
