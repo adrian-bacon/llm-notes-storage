@@ -20,7 +20,7 @@ BASE_PATH = "/app/backend/data/.llm_notes_storage"
 
 def sanitize_title(title: str) -> str:
     """
-    Sanitizes a title by removing any markdown header files and leading and 
+    Sanitizes a title by removing any markdown header characters and leading and 
     trailing white spaces.
     
     Args:
