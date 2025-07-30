@@ -45,7 +45,7 @@ To install this toolset, simply add it to your Open WebUI tools list:
 ----
 **Example Open WebUI System Prompt**
 
-The following example system prompt can be used with Open WebUI and llama3.1:8b with good results.  Feel free to modify to meet your needs.
+The following example system prompt can be used with Open WebUI and [llama3.1:8b](https://ollama.com/library/llama3.1:8b) with good results.  Feel free to modify to meet your needs.
 
 ```
 You are a note taking assistant.
