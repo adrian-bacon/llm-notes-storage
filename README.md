@@ -74,4 +74,4 @@ An example workflow is:
 ----
 **License**
 
-This library is released under the MIT License. See `LICENSE` for details.
+This library is released under the MIT License. See [`LICENSE`](./LICENSE) for details.
