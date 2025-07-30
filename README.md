@@ -33,7 +33,7 @@ To install this toolset, simply add it to your Open WebUI tools list:
 
 1. Navigate to the `Tools` tab under the `Workspaces` section.
 2. Click the plus (+) button to add a new tool.
-3. Copy/Paste the contents of `llm_note_storage.py` into the code window
+3. Copy/Paste the contents of [`llm_notes_storage.py`](./llm_notes_storage.py) into the code window
 4. Fill in the tool name and description fields and click save, then confirm.
 
 ----
