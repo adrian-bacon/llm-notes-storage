@@ -2,8 +2,8 @@
 
 A Python library to give an LLM the ability to store and retrieve notes via supported LLM tool calling or function calling to Large Language Models (LLMs) through Open WebUI's (or similar clients) tools feature.
 
-**Table of Contents**
 ----
+**Table of Contents**
 
 * [Overview](#overview)
 * [Features](#features)
@@ -12,13 +12,13 @@ A Python library to give an LLM the ability to store and retrieve notes via supp
 * [Example Open WebUI System Prompt](#example-ppen-webui-system-prompt)
 * [License](#license)
 
-**Overview**
 ----
+**Overview**
 
 This library is designed to provide a simple way for Open WebUI users (or users of similar LLM clients that support tool calling or function calling) to access and manipulate Notes through the tool calling feature.
 
-**Features**
 ----
+**Features**
 
 * Save a Note in the note store
 * Get the contents of a Note in the note store
@@ -26,8 +26,8 @@ This library is designed to provide a simple way for Open WebUI users (or users 
 * List all the Notes and their contents in the note store
 * Delete a Note in the note store
 
-**Installing**
 ----
+**Installing**
 
 To install this toolset, simply add it to your Open WebUI tools list:
 
@@ -36,14 +36,14 @@ To install this toolset, simply add it to your Open WebUI tools list:
 3. Copy/Paste the contents of `llm_note_storage.py` into the code window
 4. Fill in the tool name and description fields and click save, then confirm.
 
-**Usage**
 ----
+**Usage**
 
 * In Open WebUI, in the prompt field, you can now select the tool and prompt the LLM to save a note with a given title.
 * The LLM can also look at notes in the note store to see if any of them can augment it's training data, sort of like a port man's RAG, though, that is not the intent of this feature.
 
-**Example Open WebUI System Prompt**
 ----
+**Example Open WebUI System Prompt**
 
 The following example system prompt can be used with Open WebUI and llama3.1:8b with good results.  Feel free to modify to meet your needs.
 
@@ -71,8 +71,7 @@ An example workflow is:
 6. Only save the raw markdown of the note.
 ```
 
-
-**License**
 ----
+**License**
 
 This library is released under the MIT License. See `LICENSE` for details.
