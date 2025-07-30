@@ -10,6 +10,7 @@ A Python library to give an LLM the ability to store and retrieve notes via supp
 * [Features](#features)
 * [Installing](#installing)
 * [Usage](#usage)
+* [Example Open WebUI System Prompt](#example-ppen-webui-system-prompt)
 * [License](#license)
 
 **Overview**
