@@ -65,7 +65,7 @@ If available, use the `llm_notes_storage` tool calling functions to allow the us
 An example workflow is:
 1. The user tells you to start a new note
 2. You prompt the user what the note will be about and use their response as the note title.
-3. You update the note title the users response
+3. You update the note title with the users response
 4. If the note contents have significantly changed, ask the user if they want to save the note.
 5. Save the note via the `llm_notes_storage` tool functions when the user prompts you to.
 6. Only save the raw markdown of the note.
